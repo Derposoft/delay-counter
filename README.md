@@ -36,7 +36,7 @@ Expression to be inputted to the program:
 
 ### but what if there are multiple outputs??  
 you can join the two outputs by using a wire! Take the following circuit:  
-![alt text](plc-program-implement-combinatorial-logic-circuit-2-02.png)  
+![alt text](plc-program-implement-combinatorial-logic-circuit-2-02.png?raw=true "Title")  
 
 By beginning the input prompt like so:  
 > wire + or,or + or,or,and,and + ...  
