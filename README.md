@@ -38,7 +38,7 @@ all of the paths can be traversed and the maximum delay path between the two out
 
 yes. If gates within a layer are separated by spaces instead of commas, their sum of their delays will be used. If there is a clear maximum-delay path between the inputs to a gate, it may be easier to manually enter the gates in that path separated by spaces in some cases rather than adding another layer L_n and be forced to pad it with ~2^n "wire,"s.  
 
-For example, the circuit in the image above this could be easily squished into 2 layers (not including the joining wire at the beginning), like so:  
+##### For example, the circuit in the image above this could be easily squished into 2 layers (not including the joining wire at the beginning), like so:  
 
 > wire + or,or + or and and, or and and, and and not, and and  
 
