@@ -15,9 +15,9 @@ Ex: Given the following circuit:
 
 ![ex1](https://raw.githubusercontent.com/Derposoft/delay-counter/master/im%20in%20too%20deep.JPG)
 
-L1 = nand
-L2 = and,xnor
-L3 = and,or,and,and
+L1 = nand  
+L2 = and,xnor  
+L3 = and,or,and,and  
 
 Expression to be inputted to the program:  
 > nand + and,xnor + and,or,and,and  
