@@ -8,19 +8,19 @@ to count up all of the delays of a combinatorial circuit, enter each "layer" of 
 Ex: Given the following crude representation of a circuit:
 
 input1 ->  
-&nbsp; XOR  ->  
+&nbsp; &nbsp; &nbsp; XOR  ->  
 input2 ->  
-NAND ->  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NAND ->  
 input3 ->  
-AND  ->  
+&nbsp; &nbsp; &nbsp; AND  ->  
 input4 ->  
-OR -> output  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR -> output  
 input5 ->  
-XNOR ->  
+&nbsp; &nbsp; &nbsp; XNOR ->  
 input6 ->  
-NAND ->  
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NAND ->  
 input7 ->  
-OR   ->  
+&nbsp; &nbsp; &nbsp; OR   ->  
 input8 ->  
 
 
