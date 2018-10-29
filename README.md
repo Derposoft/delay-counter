@@ -6,11 +6,11 @@ maybe more stuff if i get bored
 soon tm  
 
 ## how to use this:
-### step 1
+### step 1: enter in values
 
-Change the delays for each gate by tweaking the "static int (gate)" values at the beginning of the file before compiling
+Change the delays for each gate by tweaking the "static int (gate)" values at the beginning of the code file before compiling
 
-### step 2
+### step 2: enter in expression
 
 To count up all of the delays of a combinatorial circuit, enter each "layer" L_n of gates separated by '+', beginning from the gate leading to the output. Separate gates in each layer by commas.
 
