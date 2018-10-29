@@ -11,31 +11,16 @@ soon tm
 
 To count up all of the delays of a combinatorial circuit, enter each "layer" of gates separated by '+', beginning from the gate leading to the output. Separate gates in each layer by commas.
 
-Ex: Given the following crude representation of a circuit (that likely won't show up properly if you're on your phone because it's plaintext, sorry)
+Ex: Given the following circuit:  
 
-input1 ->  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; XOR  ->  
-input2 ->  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NAND ->  
-input3 ->  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND  ->  
-input4 ->  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR -> output  
-input5 ->  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; XNOR ->  
-input6 ->  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NAND ->  
-input7 ->  
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR   ->  
-input8 ->  
+![ex1](https://raw.githubusercontent.com/Derposoft/delay-counter/im%20in%20too%20deep.JPG)
 
-
-L1 = or  
-L2 = nand,nand  
-L3 = xor,and,xnor,or  
+L1 = nand
+L2 = and,xnor
+L3 = and,or,and,and
 
 Expression to be inputted to the program:  
-> or + nand,nand + xor,and,xnor,or
+> nand + and,xnor + and,or,and,and  
 
 ##### Important: every layer must have 2^n number of gates. "wire" (delay = 0) can be used to fill in for paths that have already reached the input and are finished.
 (for example, L4 = wire,wire,wire,wire,wire,wire,wire,wire could also be added to the previous input to obtain the same result)
