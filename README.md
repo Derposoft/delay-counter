@@ -36,9 +36,9 @@ Expression to be inputted to the program:
 
 ### but what if there are multiple outputs??  
 you can join the two outputs by using a wire! Take the following circuit:  
-![alt text](https://www.sanfoundry.com/wp-content/uploads/2016/09/plc-program-implement-combinatorial-logic-circuit-2-02.png)  
+![alt text](plc-program-implement-combinatorial-logic-circuit-2-02.png)  
 
 By beginning the input prompt like so:  
-> wire + or,or + or,or,and,and...  
+> wire + or,or + or,or,and,and + ...  
 
 all of the paths can be traversed and the maximum delay path between the two outputs will be returned.
