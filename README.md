@@ -13,7 +13,7 @@ To count up all of the delays of a combinatorial circuit, enter each "layer" of 
 
 Ex: Given the following circuit:  
 
-![ex1](https://raw.githubusercontent.com/Derposoft/delay-counter/im%20in%20too%20deep.JPG)
+![ex1](https://raw.githubusercontent.com/Derposoft/delay-counter/master/im%20in%20too%20deep.JPG)
 
 L1 = nand
 L2 = and,xnor
