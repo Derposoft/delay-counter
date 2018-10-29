@@ -2,7 +2,7 @@
 coming soon tm, support for:  
 n-input gates  
 prop and contam delays (as opposed to just one at a time)  
-maybe more stuff if i get bored  
+maybe more stuff if i find time  
 
 ## how to use this:
 ### step 1: enter in values
