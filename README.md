@@ -1,6 +1,4 @@
 # delay-counter v0.1
-To change the delays for each gate, tweak the "static int (gate)" values at the beginning of the file before compiling
-
 support for:  
 n-input gates
 prop and contam delays (as opposed to just one at a time)  
@@ -8,8 +6,13 @@ maybe more stuff if i get bored
 soon tm  
 
 ## how to use this:
+### step 1
 
-To count up all of the delays of a combinatorial circuit, enter each "layer" of gates separated by '+', beginning from the gate leading to the output. Separate gates in each layer by commas.
+Change the delays for each gate by tweaking the "static int (gate)" values at the beginning of the file before compiling
+
+### step 2
+
+To count up all of the delays of a combinatorial circuit, enter each "layer" L_n of gates separated by '+', beginning from the gate leading to the output. Separate gates in each layer by commas.
 
 Ex: Given the following circuit:  
 
