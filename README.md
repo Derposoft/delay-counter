@@ -8,7 +8,7 @@ to count up all of the delays of a combinatorial circuit, enter each "layer" of 
 Ex: Given the following crude representation of a circuit:
 
 input1 ->  
-XOR  ->  
+&nbsp; XOR  ->  
 input2 ->  
 NAND ->  
 input3 ->  
