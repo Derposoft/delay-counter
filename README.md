@@ -8,22 +8,35 @@ Ex: Given the following crude representation of a circuit:
 
 
 input1 ->
+
 	  XOR  ->
+
 input2 ->
+
 		  NAND -> 
+
 input3 ->
+
 	  AND  ->
+
 input4 ->
 
 			        OR -> output
 
 input5 ->
+
 	  XNOR ->
+
 input6 ->
+
 		  NAND -> 
+
 input7 ->
+
 	  OR   ->
+
 input8 ->
+
 
 L1 = or
 L2 = nand,nand
