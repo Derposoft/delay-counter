@@ -1,9 +1,8 @@
 # delay-counter v0.1
-support for:  
+coming soon tm, support for:  
 n-input gates
 prop and contam delays (as opposed to just one at a time)  
 maybe more stuff if i get bored  
-soon tm  
 
 ## how to use this:
 ### step 1: enter in values
