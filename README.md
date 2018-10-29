@@ -1,11 +1,18 @@
 # delay-counter
-support for n-input gates soon tm
+To change the delays for each gate, tweak the "static int (gate)" values at the beginning of the file before compiling
 
-## how to use:
+support for:  
+n-input gates
+prop and contam delays (as opposed to just one at a time)  
+maybe more stuff if i get bored
+soon tm
+
+
+## how to use this:
 
 to count up all of the delays of a combinatorial circuit, enter each "layer" of gates separated by '+', beginning from the gate leading to the output. Separate gates in each layer by commas.
 
-Ex: Given the following crude representation of a circuit:
+Ex: Given the following crude representation of a circuit (that likely won't show up properly if you're on your phone because it's plaintext):
 
 input1 ->  
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; XOR  ->  
@@ -36,7 +43,7 @@ Expression to be inputted to the program:
 
 ### but what if there are multiple outputs??  
 you can join the two outputs by using a wire! Take the following circuit:  
-![alt text](https://raw.githubusercontent.com/Derposoft/delay-counter/master/plc-program-implement-combinatorial-logic-circuit-2-02.png)  
+![please render](https://raw.githubusercontent.com/Derposoft/delay-counter/master/plc-program-implement-combinationial-logic-circuit-2-02.png)  
 
 By beginning the input prompt like so:  
 > wire + or,or + or,or,and,and + ...  
