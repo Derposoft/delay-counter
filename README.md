@@ -1,26 +1,28 @@
 # delay-counter
 
-how to use:
+## how to use:
 
 to count up all of the delays of a combinatorial circuit, enter each "layer" of gates separated by '+', beginning from the gate leading to the output. Separate gates in each layer by commas.
 
 Ex: Given the following crude representation of a circuit:
 
-
 input1 ->  
-	  XOR  ->  
+&nbsp;   
+&nbsp;   
+&nbsp;   
+XOR  ->  
 input2 ->  
-		  NAND ->  
+NAND ->  
 input3 ->  
-	  AND  ->  
+AND  ->  
 input4 ->  
-			        OR -> output  
+OR -> output  
 input5 ->  
-	  XNOR ->  
+XNOR ->  
 input6 ->  
-		  NAND ->  
+NAND ->  
 input7 ->  
-	  OR   ->  
+OR   ->  
 input8 ->  
 
 
@@ -31,5 +33,6 @@ L3 = xor,and,xnor,or
 Expression to be inputted to the program:  
 > or + nand,nand + xor,and,xnor,or
 
+### but what if there are multiple outputs?
 
 
