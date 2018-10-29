@@ -43,7 +43,7 @@ Expression to be inputted to the program:
 
 ### but what if there are multiple outputs??  
 you can join the two outputs by using a wire! Take the following circuit:  
-![please render](https://raw.githubusercontent.com/Derposoft/delay-counter/master/plc-program-implement-combinationial-logic-circuit-2-02.png)  
+![please render](https://raw.githubusercontent.com/Derposoft/delay-counter/master/plc-program-implement-combinational-logic-circuit-2-02.png)  
 
 By beginning the input prompt like so:  
 > wire + or,or + or,or,and,and + ...  
