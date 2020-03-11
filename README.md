@@ -1,3 +1,5 @@
+## CONTAMINATION DELAY CURRENTLY BROKEN
+
 # delay-counter v0.1
 coming soon tm, support for:  
 n-input gates  
